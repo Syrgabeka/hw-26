@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  width: 700px;
+}
+.food-order {
+  display: grid;
+  grid-template-columns: 1fr 100px;
+}
+.header-menu-cart {
+  background-color: #e4ddec;
+}
+.menu-cart {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0px 20px 50px 20px;
+}
+.menu {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+.cart {
+  display: flex;
+  width: 300px;
+  border-radius: 10px;
+  margin: 10px;
+  border: none;
+  background-color: #6c5a99;
+  color: white;
+  box-shadow: 0 0 3px 2px rgb(54, 53, 53);
+}
+.cart:hover {
+  box-shadow: 0 0 3px 3px rgb(0, 0, 0);
+}
+.cart:active {
+  background-color: #9181b9;
+  box-shadow: 0 0 0px 0px rgb(54, 53, 53);
+}
+.foto {
+  width: 90px;
+  height: 80px;
+  border-radius: 10px;
+}
+.text-menu {
+  padding: 15px 10px;
+}
+
+.buy-foot {
+  background-color: #d1a9f2;
+  padding: 0 20px;
+}
+.center-buy {
+  text-align: center;
+  font-weight: bold;
+}
+.buy-foot-name {
+  font-size: 30px;
+  padding: 10px;
+  border-bottom: 3px solid #7d599b;
+  width: 95%;
+}
+
+.buy-order {
+  background-color: #d1a9f2;
+  border-radius: 7px;
+  padding: 10px;
+  margin: 10px;
+  text-align: left;
+  width: 90%;
+  border: 2px solid white;
+  display: grid;
+  grid-template-columns: 40% 15% 25% 20%;
+}
+.buy-delete {
+  width: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: red;
+  border: none;
+  color: white;
+}
+.buy-delete:active {
+  background-color: gray;
+}
